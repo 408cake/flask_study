@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Condition Statement Usages</title>
+</head>
+<body>
+  <h1>Condition Statement Usages</h1>
+  <h2>User Role</h2>
+  {% if role == 'admin' %}
+    <p>You are an administrator.</p>
+  {% elif role == 'member' %}
+    <p>You are a regular member.</p>
+  {% else %}
+    <p>You are using a guest account.</p>
+  {% endif %}
+</body>
+</html>
